@@ -1,0 +1,8 @@
+#  Day 1
+
+Downloading Xcode was actually a bit of an ordeal. Download from the app store failed twice. It just stuck at anout 80% of the way. No idea why. Downloading using Chrome also failed twice. It seems that it downloaded the whole thing, and then removed the file with an error along the lines of - "not authorized". Had to download using Safari, and that worked. 
+
+Apparently, there are two ways to run the playgrounds. The default is the manual mode. From what I had seen in demos previously, it looked like the results should have populated on the right side automatically, but it wasn't for me. In fact, I couldn't tell what really was. A little bit of Googling, and I found [this](https://forums.swift.org/t/swift-playgrounds-not-updating-automatically-on-macos/18207) which confirmed that "manual" mode was the default mode in Xcode 10.
+That pointed me to [this](https://help.apple.com/xcode/mac/current/#/dev188e45167), which was really just more information about the "manual" and "automatic" modes. I couldn't really figure out how to find the "run" button that it was referencing.
+
+Some more Googling for "run playground xcode" led me to [this](https://stackoverflow.com/questions/26112993/xcode-any-way-to-refresh-re-run-the-playground#comment86884679_43144667), which solved it for me. I had to make sure that the debugger window was showing first (that was one of the buttons on the top right corner on the Xcode window), and then long press on the square icon to reveal the two options to run the playground - manual, and automatic. Switched it to automatic, and voila - updates automatically as I type now. Not sure why it's set to manual by default though. It took me about 10 mins to figure out. Really should've been set to automatic by default.
